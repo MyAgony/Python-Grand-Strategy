@@ -1,0 +1,32 @@
+{
+  "factions": {
+    "Hanedan": {
+      "color": "#5b8de3",
+      "motto": "Küllerimizden doğarız."
+    },
+    "Mavi Denizler": {
+      "color": "#2c5291",
+      "motto": "Rüzgar bizimle."
+    }
+  },
+  "provinces": [
+    {
+      "name": "Kuzey Yel",
+      "terrain": "Tundra",
+      "neighbors": ["Gümüş Vadi", "Doğu Sahil"],
+      "owner": "Hanedan"
+    },
+    {
+      "name": "Gümüş Vadi",
+      "terrain": "Dağ",
+      "neighbors": ["Kuzey Yel", "Doğu Sahil"],
+      "owner": "Hanedan"
+    },
+    {
+      "name": "Doğu Sahil",
+      "terrain": "Sahil",
+      "neighbors": ["Kuzey Yel", "Gümüş Vadi"],
+      "owner": "Mavi Denizler"
+    }
+  ]
+}
